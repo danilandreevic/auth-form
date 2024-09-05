@@ -16,6 +16,7 @@ const Auth = () => {
 
             if (user) {
                 alert('Login successful!');
+                setErrorMessage('')
             } else {
                 setErrorMessage('Invalid email or password.');
             }
